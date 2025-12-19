@@ -13,13 +13,13 @@ export async function POST(req: Request) {
     
   if (type === "quote") {
     prompt =
-      "Drop one sharp, original, and fresh quote that hits different. Make it inspirational, thought-provoking, or funny, but 100% AI-generated—no recycled quotes or clichés. Give it that streetwise, Naija flair if possible, something people will feel in their bones.";
+      "Generate original, thought-provoking, and emotionally resonant quotes on [insert topic]. For each idea, create multiple unique versions—at least 5 different ways of expressing it—each with a distinct tone, style, or perspective. Avoid clichés unless you can give them a surprising twist. The quotes should feel fresh, insightful, and something that feels like it could be shared widely, but not like something already existing. Include variations that are short, poetic, motivational, humorous, or philosophical. Output clearly labeled so I can see each version separately. You can also add touches of pidgin once in a while i mean like sweet nigerian pidgin...";
   } else if (type === "rhyme") {
     prompt =
-      "Cook up one short, catchy rhyming couplet or 2-4 line poem. Make it playful, cheeky, and TikTok-ready, like ‘AM to PM so I Dm…’ or ‘I’m not Phillips but feeling your lips…’. Must be original, creative, and very Nigerian/Naija TikTok style. Avoid generic rhymes or overused lines.";
+      "Create one short, catchy, and fully original rhyming piece—either a 2-4 line poem or couplet. Make it playful, cheeky, and very Naija/TikTok in vibe, like it could trend in DMs or reels. Use clever wordplay, AM-to-PM energy, slang, or Nigerian expressions naturally. Avoid overused lines, generic rhymes, or predictable phrases. Bonus points for rhythm that hits hard and makes it memorable.";
   } else if (type === "pickup") {
     prompt =
-      "Create one brand-new, funny, clever, and flirty pick-up line in a Naija/TikTok style. Think playful wordplay, cheeky twists, AM-to-PM vibes, DM vibes, or cheeky rhymes, but don't repeat lines are wordsoften random random ... you are an AI you know how to do your thing sooo. Must feel original, AI-generated, and fresh—no old lines or clichés.";
+      "Invent one brand-new, funny, clever, and flirty Naija/TikTok-style pick-up line. Make it playful, full of wordplay, cheeky twists, and AM-to-PM or DM vibes. You can sprinkle in short Nigerian slang, pidgin, or casual expressions. Must feel original, AI-generated, and fresh—no recycled lines, clichés, or boring word-for-word pick-ups. It should feel shareable, playful, and uniquely Nigerian. and fresh—no old lines or clichés.";
   }
 
 
