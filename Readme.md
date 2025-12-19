@@ -8,7 +8,7 @@
 - **Catchy Rhymes**: Short rhyming couplets or mini-poems with a playful, TikTok/Naija vibe.  
 - **Flirty Pick-up Lines**: Clever, cheeky, and funny lines that feel fresh and original.  
 - **Customizable Prompts**: Easily tweak the style, tone, and creativity of outputs.  
-- **Naija & TikTok Style**: Lines with wordplay, AM-to-PM vibes, DM vibes, and cheeky rhymes.
+<!-- - **Naija & TikTok Style**: Lines with wordplay, AM-to-PM vibes, DM vibes, and cheeky rhymes. -->
 
 ## Tech Stack
 
