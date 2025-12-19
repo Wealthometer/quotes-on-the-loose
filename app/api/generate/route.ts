@@ -19,7 +19,7 @@ export async function POST(req: Request) {
       "Create one short, catchy, and fully original rhyming piece—either a 2-4 line poem or couplet. Make it playful, cheeky, and very Naija/TikTok in vibe, like it could trend in DMs or reels. Use clever wordplay, AM-to-PM energy, slang, or Nigerian expressions naturally. Avoid overused lines, generic rhymes, or predictable phrases. Bonus points for rhythm that hits hard and makes it memorable.";
   } else if (type === "pickup") {
     prompt =
-      "Invent one brand-new, funny, clever, and flirty Naija/TikTok-style pick-up line. Make it playful, full of wordplay, cheeky twists, and AM-to-PM or DM vibes. You can sprinkle in short Nigerian slang, pidgin, or casual expressions. Must feel original, AI-generated, and fresh—no recycled lines, clichés, or boring word-for-word pick-ups. It should feel shareable, playful, and uniquely Nigerian. and fresh—no old lines or clichés.";
+      "Create one fresh, funny, clever, and flirty Naija/TikTok-style pickup line. Make it playful, cheeky, full of wordplay, AM-to-PM energy, or DM vibes. You can sprinkle in Nigerian slang, casual expressions, or pidgin, but DO NOT focus on food or repeat the same examples. It should feel original, bold, and surprising—something that could make someone laugh, blush, or notice you instantly. Avoid clichés, recycled lines, or predictable patterns.";
   }
 
 
