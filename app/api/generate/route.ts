@@ -13,10 +13,62 @@ export async function POST(req: Request) {
     
   if (type === "quote") {
     prompt =
-      "create multiple unique versions—at least 50 different ways of expressing it—each with a distinct tone, style, or perspective. Avoid clichés unless you can give them a surprising twist. The quotes should feel fresh, insightful, and something that feels like it could be shared widely, but not like something already existing. Include variations that are short, poetic, motivational, humorous, funny, memes, or philosophical and so on. Output clearly labeled so I can see each version separately. You can also add touches of pidgin once in a while i mean like sweet nigerian pidgin...";
+      `
+      Generate As many as you can fully original quotes.
+
+      STRICT RULES:
+      - Each quote must feel meaningfully different in tone, angle, or mindset.
+      - Mix styles: poetic, savage, funny, motivational, memeable, philosophical, chaotic, calm, reflective.
+      - Some quotes should be very short (5–10 words). Some can be longer.
+      - At least 30% of the quotes must contain a clear plot twist, reversal, or unexpected ending.
+      - Avoid recycled wisdom, common sayings, or motivational clichés.
+      - If a quote sounds like it already exists, discard it and create a new one.
+
+      STYLE CONSTRAINTS:
+      - Sound modern, Gen Z, internet-aware, and shareable.
+      - You may sprinkle in Nigerian pidgin OCCASIONALLY (not every quote).
+      - Humor and sarcasm are welcome.
+      - Confidence > preachiness.
+
+      BANNED:
+      - No “trust the process”, “everything happens for a reason”, “keep going”, “never give up”.
+      - No spiritual-poster energy unless flipped creatively.
+
+      OUTPUT FORMAT:
+      - only output one at a time
+      - Only output the quotes. No explanations.
+
+      `
   } else if (type === "rhyme") {
     prompt =
-      "Create one short, catchy, and fully original rhyming piece—either a 2-4 line poem or couplet. Make it playful, cheeky, and very Naija/TikTok in vibe, like it could trend in DMs or reels. Use clever wordplay, AM-to-PM energy, slang, or Nigerian expressions naturally. Avoid overused lines, generic rhymes, or predictable phrases. Bonus points for rhythm that hits hard and makes it memorable.";
+      `
+      Generate ONE original short rhyme or poem.
+
+      STRICT RULES:
+      - Must be 4–8 lines.
+      - The LAST WORD of each line must RHYME.
+      - Must feel playful, bold, and confident.
+      - Can include Nigerian slang or light pidgin.
+      - Must sound like something a funny, smooth Gen Z guy would say.
+      - End with a punchline or clever twist.
+
+      BANNED:
+      - No magician, stars, angels, destiny, universe, or disappearing metaphors.
+      - No recycled or popular rhymes/poems.
+      - No generic compliments.
+      - No explanations.
+
+      STYLE:
+      - Unexpected wordplay
+      - Slightly cheeky, not corny
+      - Should make someone laugh or pause, blush
+
+      OUTPUT:
+      - Only the rhyme/poem. Nothing else.one at a time 
+      - generate as many as you can
+      - but only output one at a time
+      
+      `;
   } else if (type === "pickup") {
     prompt =
       `
